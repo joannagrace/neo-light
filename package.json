@@ -1,0 +1,38 @@
+{
+  "name": "neo-light",
+  "version": "0.0.1",
+  "description": "Home Automation App",
+  "main": "server.js",
+  "dependencies": {
+    "bcrypt":"~0.8.5",
+    "serve-favicon": "^2.3.2",
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
+    "chai": "^3.5.0",
+    "chai-http": "^2.0.1",
+    "ejs": "^2.4.1",
+    "express": "^4.14.0",
+    "mocha": "^2.4.5",
+    "mongodb": "^2.1.16",
+    "morgan": "^1.7.0",
+    "object-assign":"4.1.0"
+  },
+  "devDependencies": {
+    "socket.io": "^1.5.1"
+  },
+  "engine": {
+    "node": "*",
+    "npm": "*"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "IP=0.0.0.0 PORT=3030 mocha --timeout 5000 tests/*_test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joannagrace/neo-light.git"
+  },
+  "author": "joannagrace <joannagracecavosora@gmail.com>",
+  "license": "CC-BY-1.0",
+  "homepage": "https://github.com/joannagrace/neo-light"
+}
